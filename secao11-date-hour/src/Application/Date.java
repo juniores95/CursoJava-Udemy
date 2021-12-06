@@ -58,7 +58,7 @@ public class Date {
 		System.out.println("x2 :" + x2);
 		System.out.println("x3 :" + x3);
 		
-		//Comentario para giy HUb
+		//Comentario para giy HUb...
 		
 		
 	}
