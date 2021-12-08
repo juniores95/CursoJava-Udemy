@@ -38,6 +38,6 @@ public class Orderitem {
 	}
 	
 	public String toString() {
-		return product + " Quantity: " + quantity + ", SubTotal: $" + subTotal();
+		return product.getName()+ ", $" + String.format("%.2f", price) + ", Quantity: " + quantity + ", SubTotal: $" + String.format("%.2f", subTotal());
 	}
 }

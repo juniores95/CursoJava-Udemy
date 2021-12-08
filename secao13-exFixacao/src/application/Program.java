@@ -44,6 +44,7 @@ public class Program {
 		for(int i = 1; i<=qt; i++) {
 			System.out.println("Enter #"+ i + " item date: ");
 			System.out.print("Product name: ");
+			sc.nextLine();
 			String nameP = sc.next();
 			System.out.print("Product price: ");
 			double priceP = sc.nextDouble();
