@@ -22,7 +22,7 @@ public class Program {
 		int payers = sc.nextInt();
 		
 		for(int i=1; i<=payers;i++) {
-			System.out.println("Tax payer # "+i+"data:");
+			System.out.println("Tax payer # " + i + "data:");
 			System.out.printf("Individual or company (i/c)? ");
 			char r = sc.next().charAt(0);
 			
