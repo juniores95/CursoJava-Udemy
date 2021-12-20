@@ -28,7 +28,7 @@ public class Program {
 			
 			System.out.println("Enter amount for withdraw: ");
 			ct.withdraw(sc.nextDouble());
-			System.out.printf("Novo saldo: %.2f%n", ct.getBalance());
+			System.out.printf("New balance: %.2f%n", ct.getBalance());
 		}catch(Exceptions e){
 			System.out.println(e.getMessage());
 		}
